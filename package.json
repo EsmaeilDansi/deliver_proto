@@ -1,0 +1,31 @@
+{
+  "name": "@deliver/proto-js",
+  "version": "1.15.31",
+  "peerDependencies": {
+    "@angular/common": "^13.2.0",
+    "@angular/core": "^13.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "module": "fesm2015/deliver-proto-js.mjs",
+  "es2020": "fesm2020/deliver-proto-js.mjs",
+  "esm2020": "esm2020/deliver-proto-js.mjs",
+  "fesm2020": "fesm2020/deliver-proto-js.mjs",
+  "fesm2015": "fesm2015/deliver-proto-js.mjs",
+  "typings": "deliver-proto-js.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./deliver-proto-js.d.ts",
+      "esm2020": "./esm2020/deliver-proto-js.mjs",
+      "es2020": "./fesm2020/deliver-proto-js.mjs",
+      "es2015": "./fesm2015/deliver-proto-js.mjs",
+      "node": "./fesm2015/deliver-proto-js.mjs",
+      "default": "./fesm2020/deliver-proto-js.mjs"
+    }
+  },
+  "sideEffects": false
+}
